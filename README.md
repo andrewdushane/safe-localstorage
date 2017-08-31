@@ -15,7 +15,7 @@ The localStorage API is available in all modern browsers, [going back to IE 8](h
 ## Installation
 
 ```bash
-npm install safe-localstorage
+npm install --save safe-localstorage
 ```
 
 ## Usage
