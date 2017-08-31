@@ -2,12 +2,19 @@
   "name": "safe-localstorage",
   "version": "1.0.0",
   "description": "localStorage wrapper that fails gracefully when it's not available, like in Safari private mode",
+  "keywords": ["localstorage", "local", "storage", "browser"],
+  "author": {
+    "name": "Andrew Dushane"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy-j-d/safe-localstorage"
+  },
   "main": "index.js",
   "scripts": {
     "babel": "babel src.js -o index.js",
     "test": "jest --verbose"
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
