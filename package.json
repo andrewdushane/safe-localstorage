@@ -1,8 +1,13 @@
 {
   "name": "safe-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "localStorage wrapper that fails gracefully when it's not available, like in Safari private mode",
-  "keywords": ["localstorage", "local", "storage", "browser"],
+  "keywords": [
+    "localstorage",
+    "local",
+    "storage",
+    "browser"
+  ],
   "author": {
     "name": "Andrew Dushane"
   },
