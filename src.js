@@ -26,7 +26,7 @@ const useStorageWhenAvailable = (nativeMethod, args, callback = noop) => {
   }
 };
 
-export default {
+const safeLocalStorage = {
   get: (key, onLocalStorageNotAvailable) => {
     return useStorageWhenAvailable('getItem', [key], onLocalStorageNotAvailable);
   },
@@ -40,3 +40,5 @@ export default {
     useStorageWhenAvailable('clear', [], onLocalStorageNotAvailable);
   },
 };
+
+export default safeLocalStorage;
