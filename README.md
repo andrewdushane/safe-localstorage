@@ -6,7 +6,7 @@
 
 ### Safari Private Browsing
 
-In Safari's Private Browsing mode, attempting to store data in localStorage will throw an error. safeLocalStorage checks that `window.localStorage` is safe to use. Added bonus - you can pass its methods an arbitrary callback to be fired if localStorage is unavaialable.
+In Safari's Private Browsing mode, attempting to store data in localStorage will throw an error. safeLocalStorage checks that `window.localStorage` is safe to use. Added bonus - you can pass its methods an arbitrary callback to be fired if localStorage is unavailable.
 
 ### Really old browsers
 
